@@ -1,4 +1,4 @@
-# ex338-league-skill
+# 338-fantasy-league-skill
 
 Agent skill for querying 338 Challenge fantasy league data via the ex338 read-only API.
 
@@ -13,11 +13,11 @@ Agent skill for querying 338 Challenge fantasy league data via the ex338 read-on
 ```
 
 Output:
-- `dist/ex338-league-skill.zip`
+- `dist/338-fantasy-league-skill.zip`
 
 ## Install in Claude Code (marketplace)
 
 ```bash
-/plugin marketplace add axelclark/ex338-league-skill
-/plugin install ex338-league-skill
+/plugin marketplace add axelclark/338-fantasy-league-skill
+/plugin install 338-fantasy-league-skill
 ```
