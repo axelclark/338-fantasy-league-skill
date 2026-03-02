@@ -4,6 +4,8 @@ Skill for querying 338 Challenge fantasy league data via the public read-only AP
 
 ## Setup (Claude)
 
+> **Note (at time of release):** Complete setup in Claude Desktop or Claude Web. The mobile app currently does not expose these setup controls. After setup is complete, the skill is available in mobile chats too.
+
 1. **Enable required capabilities**
    - Open **Settings → Capabilities**
    - Turn on **Code execution and file creation**
