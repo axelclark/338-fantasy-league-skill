@@ -15,12 +15,14 @@ Skill for querying 338 Challenge fantasy league data via the public read-only AP
    ![Claude capabilities and domain allowlist settings](docs/images/capabilities-allowlist.png)
 
 2. **Upload the skill ZIP**
-   - Open **Customize → Skills → + → Upload a skill**
+   - Open **Customize → Skills**
+   - Click **+** then **Upload a skill**
    - Upload `338-fantasy-league-skill.zip`
    - Reusable latest-download link:
      - `https://github.com/axelclark/338-fantasy-league-skill/releases/latest/download/338-fantasy-league-skill.zip`
 
-   ![Claude skill upload flow](docs/images/skills-upload.png)
+   ![Open the Skills screen](docs/images/skills-open.png)
+   ![Upload a skill dialog](docs/images/skills-upload-dialog.png)
 
 3. **Use the skill in prompts**
    - Ask Claude to use the `338-fantasy-league` skill for standings, rosters, available players, waivers, draft picks, etc.
