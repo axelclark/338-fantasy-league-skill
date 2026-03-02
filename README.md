@@ -19,7 +19,7 @@ Skill for querying 338 Challenge fantasy league data via the public read-only AP
    - Click **+** then **Upload a skill**
    - Upload `338-fantasy-league-skill.zip`
    - Reusable latest-download link:
-     - `https://github.com/axelclark/338-fantasy-league-skill/releases/latest/download/338-fantasy-league-skill.zip`
+     - [Download latest skill ZIP](https://github.com/axelclark/338-fantasy-league-skill/releases/latest/download/338-fantasy-league-skill.zip)
 
    ![Upload a skill dialog](docs/images/skills-upload-dialog.png)
    ![Open the Skills screen](docs/images/skills-open.png)
