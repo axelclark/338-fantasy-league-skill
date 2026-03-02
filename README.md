@@ -1,9 +1,13 @@
 # 338-fantasy-league-skill
 
-Agent skill for querying 338 Challenge fantasy league data via the ex338 read-only API.
+Contains both:
+1. `SKILL.md` for Claude-style skill distribution
+2. A read-only MCP server (`src/index.mjs`) for chat surfaces that need tool integration
 
 ## Contents
 - `SKILL.md` — skill definition and usage
+- `MCP.md` — MCP server summary
+- `src/index.mjs` — MCP server implementation
 - `scripts/package-skill.sh` — creates a distributable zip for Claude.ai skill upload
 
 ## Package for Claude.ai upload
@@ -14,6 +18,13 @@ Agent skill for querying 338 Challenge fantasy league data via the ex338 read-on
 
 Output:
 - `dist/338-fantasy-league-skill.zip`
+
+## Run MCP server
+
+```bash
+npm install
+npm start
+```
 
 ## Install in Claude Code (marketplace)
 
