@@ -1,14 +1,10 @@
 # 338-fantasy-league-skill
 
-Contains both:
-1. `SKILL.md` for Claude-style skill distribution
-2. A read-only MCP server (`src/index.mjs`) for chat surfaces that need tool integration
+Skill for querying 338 Challenge fantasy league data via the public read-only API.
 
 ## Contents
 - `SKILL.md` — skill definition and usage
-- `MCP.md` — MCP server summary
-- `src/index.mjs` — MCP server implementation
-- `scripts/package-skill.sh` — creates a distributable zip for Claude.ai skill upload
+- `scripts/package-skill.sh` — creates distributable zip for Claude.ai skill upload
 
 ## Package for Claude.ai upload
 
@@ -19,16 +15,19 @@ Contains both:
 Output:
 - `dist/338-fantasy-league-skill.zip`
 
-## Run MCP server
+## Install in Claude.ai
 
-```bash
-npm install
-npm start
-```
+1. Open **Settings → Capabilities → Skills**
+2. Upload `dist/338-fantasy-league-skill.zip`
 
-## Install in Claude Code (marketplace)
+## Troubleshooting
 
-```bash
-/plugin marketplace add axelclark/338-fantasy-league-skill
-/plugin install 338-fantasy-league-skill
-```
+### `403` / blocked domain / host not allowed
+In Claude settings, add this domain to allowlist:
+
+- `the338challenge.com`
+
+Then start a fresh chat/session and retry.
+
+### It keeps picking the wrong league
+This skill is league-agnostic. Ask with a specific league id/year/division, or have the assistant list leagues first.
