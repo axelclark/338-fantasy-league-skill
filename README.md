@@ -21,8 +21,8 @@ Skill for querying 338 Challenge fantasy league data via the public read-only AP
    - Reusable latest-download link:
      - `https://github.com/axelclark/338-fantasy-league-skill/releases/latest/download/338-fantasy-league-skill.zip`
 
-   ![Open the Skills screen](docs/images/skills-open.png)
    ![Upload a skill dialog](docs/images/skills-upload-dialog.png)
+   ![Open the Skills screen](docs/images/skills-open.png)
 
 3. **Use the skill in prompts**
    - Ask Claude to use the `338-fantasy-league` skill for standings, rosters, available players, waivers, draft picks, etc.
